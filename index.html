@@ -2,19 +2,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jCaptcha - Simple captcha component written in pure JavaScript with no dependencies</title>
+  <title>PLayIt</title>
   <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
   <link href="https://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
   <style>
-    /*** DEMO only ***/
-
     html {
 
       font-size: 62.5%;
 
     }
 
-    html,
     body {
 
       margin: 0;
@@ -71,13 +68,6 @@
 
     }
 
-    .jCaptchaText {
-
-      position: absolute;
-      top: -25px;
-      left: 15px;
-
-    }
 
     .jCaptcha {
 
@@ -95,40 +85,6 @@
 
     }
 
-    .jCaptcha:focus,
-    .jCaptcha:focus~.button {
-
-      box-shadow: 0 0 8px #a79816;
-
-    }
-
-    .jCaptcha.error,
-    .jCaptcha.error~.button {
-
-      box-shadow: 0 0 8px #c5391a;
-
-    }
-
-    .jCaptcha.error~.button {
-
-      background: #c5391a;
-      color: #fff;
-
-    }
-
-    .jCaptcha.success,
-    .jCaptcha.success~.button {
-
-      box-shadow: 0 0 8px #93a023;
-
-    }
-
-    .jCaptcha.success~.button {
-
-      background: #b1c317;
-      color: #fff;
-
-    }
 
     .button {
 
@@ -245,14 +201,25 @@
 
   <main>
 
-    <form class="form" action="">
+    <form class="form">
 
-      <input class="jCaptcha error" type="text" placeholder="Calculate the math!">
-      <button class="button" type="submit">Log</button>
+      <input class="jCaptcha error" id="pswd" type=" text" placeholder="Enter password!">
+      <button class="button" type="button" value="Submit" onclick="checkPswd();">Login</button>
 
     </form>
 
   </main>
+  <script type="text/javascript">
+    function checkPswd() {
+      var confirmPassword = "Moringa";
+      var password = document.getElementById("pswd").value;
+      if (password == confirmPassword) {
+        window.location = "login.html";
+      } else {
+        alert("Passwords do not match.");
+      }
+    }
+  </script>
 </body>
 
 </html>
