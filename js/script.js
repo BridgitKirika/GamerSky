@@ -10,6 +10,7 @@ var trivia = [
     },
     correctAnswer: "A"
   },
+
   {
     question:
       "What do you call the small image icons used to express emotions or ideas in digital communication?",
@@ -21,6 +22,7 @@ var trivia = [
     },
     correctAnswer: "A"
   },
+
   {
     question:
       "When referring to a computer monitor, what does the acronym LCD stand for?",
@@ -32,6 +34,7 @@ var trivia = [
     },
     correctAnswer: "D"
   },
+
   {
     question: "Which of these is NOT a operating system?",
     answerSet: {
@@ -53,6 +56,7 @@ var trivia = [
     },
     correctAnswer: "B"
   },
+
   {
     question: 'In computer science, what does "GUI" stand for?',
     answerSet: {
@@ -63,7 +67,9 @@ var trivia = [
     },
     correctAnswer: "A"
   },
+
   {
+  
     question:
       "Steve Jobs, Steve Wozniak, and Ronald Wayne founded what company in 1976?",
     answerSet: {
@@ -74,6 +80,7 @@ var trivia = [
     },
     correctAnswer: "B"
   },
+
   {
     question: 'In a website browser address bar what does "www" stand for?',
     answerSet: {
@@ -84,6 +91,7 @@ var trivia = [
     },
     correctAnswer: "C"
   },
+
   {
     question: "HTML and CSS are computer languages used to create what?",
     answerSet: {
@@ -95,6 +103,7 @@ var trivia = [
     },
     correctAnswer: "C"
   },
+
   {
     question: "In a photo editing program, what do the letters RGB stand for?",
     answerSet: {
@@ -105,6 +114,7 @@ var trivia = [
     },
     correctAnswer: "A"
   }
+  
 ];
 
 var startTime = 5;
