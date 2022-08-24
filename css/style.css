@@ -21,7 +21,7 @@
 
 body {
   margin: 0;
-  background: #eee url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg") 50% 35%/cover no-repeat padding-box padding-box local;
+  background: #eee url("https://miro.medium.com/max/1400/0*TYvHwYfS1BfoDYkg") 50% 35%/cover no-repeat padding-box padding-box local;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -35,9 +35,9 @@ body {
 h1 {
   margin: 0;
   padding: 21px;
-  background: #eb4d4b;
+  background: #075252;
   color: #fff;
-  font-family: 'Yesteryear', cursive, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 69px;
   line-height: 33px;
   text-align: center;
